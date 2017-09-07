@@ -1,0 +1,36 @@
+{
+  "name": "blank_project_client",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "app-root-path": "^2.0.1",
+    "gulp-sass": "^3.1.0",
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "chart.js": "^2.5.0",
+    "jquery": "^2.1.4",
+    "materialize-css": "^0.97.3",
+    "moment": "^2.18.1",
+    "mqtt": "^2.2.1",
+    "net": "^1.0.2",
+    "node-rest-client": "^3.0.0",
+    "react": "^15.4.2",
+    "react-chartjs-2": "^2.0.5",
+    "react-datepicker": "^0.43.0",
+    "react-dom": "^15.4.2",
+    "react-materialize": "^0.18.1",
+    "react-router": "^3.0.2",
+    "react-table": "^5.3.5",
+    "react-tabs": "^0.8.2",
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^1.7.2",
+    "sys": "0.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
