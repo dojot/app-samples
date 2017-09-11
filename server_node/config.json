@@ -1,0 +1,11 @@
+{
+    "platformUrl":"https://your-platform-url",
+    "headers": {
+        "fiware-service": "platform-user",
+        "fiware-servicepath": "/"
+    },
+    "security": {        
+        "username":"platform-user",
+        "passwd":"platform-password"
+    }
+}

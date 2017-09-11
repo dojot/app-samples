@@ -1,0 +1,22 @@
+{
+  "name": "iot_blank_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon app/server.js",
+    "debug": "node_modules/.bin/nodemon --debug app/server.js"
+  },  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "socket.io": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

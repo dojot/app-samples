@@ -1,0 +1,43 @@
+group 'br.com.atlantico.iot'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+
+jar {
+    baseName = 'gs-rest-service'
+    version =  '0.1.0'
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://repo.eclipse.org/content/repositories/paho-snapshots/"
+    }
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+	compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.3'	    
+    compile("com.corundumstudio.socketio:netty-socketio:1.7.7")
+    compile group: 'org.json', name: 'json', version: '20090211'   
+	    
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
