@@ -1,8 +1,10 @@
-# iot-vue-project
+# client-vue
 
-> A Vue.js project
+> Vue.js Client projetc for IoT with CPqD IoT Platform
 
-## Build Setup
+## Setup
+
+Make sure to configure the dev.env.js/prod.env.js that contains the urls for the local IoT Server (HTTP and WebSocket)
 
 ``` bash
 # install dependencies

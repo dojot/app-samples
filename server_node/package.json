@@ -6,17 +6,12 @@
   "scripts": {
     "start": "node_modules/.bin/nodemon app/server.js",
     "debug": "node_modules/.bin/nodemon --debug app/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@stash.atlantico.com.br/iot/iot_blank_project.git"
-  },
+  },  
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "mqtt": "^2.8.0",
     "request": "^2.81.0",
     "request-promise-native": "^1.0.4",
     "socket.io": "^2.0.2"

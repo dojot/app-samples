@@ -1,11 +1,11 @@
 {
-    "platformUrl":"https://iotmid-docker42.cpqd.com.br",   
+    "platformUrl":"https://your-platform-url",
     "headers": {
-        "fiware-service": "admin",
+        "fiware-service": "platform-user",
         "fiware-servicepath": "/"
     },
     "security": {        
-        "username":"admin",
-        "passwd":"admin"
+        "username":"platform-user",
+        "passwd":"platform-password"
     }
 }

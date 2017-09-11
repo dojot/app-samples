@@ -3,17 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "app-root-path": "^2.0.1",
-    "gulp-sass": "^3.1.0",
     "react-scripts": "0.8.5"
   },
   "dependencies": {
     "chart.js": "^2.5.0",
-    "jquery": "^2.1.4",
     "materialize-css": "^0.97.3",
     "moment": "^2.18.1",
-    "mqtt": "^2.2.1",
-    "net": "^1.0.2",
     "node-rest-client": "^3.0.0",
     "react": "^15.4.2",
     "react-chartjs-2": "^2.0.5",
